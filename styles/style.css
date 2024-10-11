@@ -19,13 +19,3 @@ body{
     display: table-cell;
     vertical-align: middle;
 }
-
-.contents_intro{
-    padding-top: 50px;
-    padding-left: 70px;
-}
-
-.contents_body{
-    padding-left: 64px;
-    padding-right: 64px;
-}
