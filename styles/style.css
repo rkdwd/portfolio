@@ -22,9 +22,6 @@ body{
     margin: 0px 12px 0 12px;
 }
 
-
-
-
 /* Style the Image Used to Trigger the Modal */
 .myImg {
     cursor: pointer;
@@ -32,8 +29,6 @@ body{
   }
 .myImg:hover {opacity: 0.5;}
 
-
-/* The Modal (background) */
 #modal1,
 #modal2,
 #modal3,
@@ -47,6 +42,8 @@ body{
 #modal11,
 #modal12{
     display: none;
+}
+.modal{
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -58,7 +55,6 @@ body{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
 
 /* Modal Content (Image) */
 .modalImg {
