@@ -29,21 +29,8 @@ body{
   }
 .myImg:hover {opacity: 0.5;}
 
-#modal1,
-#modal2,
-#modal3,
-#modal4,
-#modal5,
-#modal6,
-#modal7,
-#modal8,
-#modal9,
-#modal10,
-#modal11,
-#modal12{
-    display: none;
-}
 .modal{
+    display: none;
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -101,13 +88,5 @@ body{
 .close:hover,
 .close:focus {
     color: #bbb;
-    text-decoration: none;
     cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modalImg {
-        width: 100%;
-    }
 }

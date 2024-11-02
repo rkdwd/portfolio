@@ -1,3 +1,4 @@
+// W3schools
 let modals = new Array(12);
 let imgs = new Array(12);
 let modalImgs = new Array(12);
